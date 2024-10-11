@@ -33,3 +33,14 @@ fun ContohList() {
     println(shapesLocked)
 
 }
+
+// Set adalah Kumpulan data yang tidak memiliki posisi atau urutan tertentu dan hanya menyimpan data unik (tidak ada duplikasi)
+
+fun ContohSet() {
+    println()
+    println("=== Set ====")
+
+    // Set Read-Only
+    val readonlyAbjad = setOf("A", "B", "C")
+    println(readonlyAbjad)
+}
