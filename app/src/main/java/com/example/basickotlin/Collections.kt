@@ -16,5 +16,8 @@ fun ContohList() {
     val shape: MutableList<String> = mutableListOf("Circle", "Square", "Triangle")
     println(shape)
 
+    // Menghapus data dari List Mutable
+    shape.remove("Triangle")
+    println(shape)
 
 }
