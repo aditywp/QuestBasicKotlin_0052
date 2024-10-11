@@ -61,3 +61,16 @@ fun ContohSet() {
     println(shapesLocked)
 
 }
+
+// Map adalah Kumpulan data yang disusun dalam pasangan key-value
+
+fun ContohMap() {
+    println()
+    println("=== Map ====")
+
+    // Map Read-Only
+    val readonlyShape: Map<String, Int> = mapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println(readonlyShape)
+
+}
+
