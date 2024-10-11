@@ -12,3 +12,4 @@ fun ContohList() {
     val readonlyAbjad = listOf("A", "B", "C")
     println(readonlyAbjad)
 
+}
